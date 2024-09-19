@@ -17,18 +17,19 @@
 
 plugins {
     id("com.github.johnrengelman.shadow")
-    id("io.papermc.paperweight.userdev") version "1.5.3"
+    id("io.papermc.paperweight.userdev") version "1.7.2"
 }
 
 repositories {
     maven("https://papermc.io/repo/repository/maven-public/")
+    maven("https://mvn.littleoni.net/repository/tech_6/")
     mavenLocal()
 }
 
 dependencies {
     api(project(":unifiedmetrics-core"))
 //    compileOnly("com.destroystokyo.paper", "paper-api", "1.16.5-R0.1-SNAPSHOT")
-    paperweight.devBundle("dev.folia", "1.20.1-R0.1-SNAPSHOT")
+    paperweight.devBundle("dev.folia", "1.21.1-R0.1-SNAPSHOT")
 }
 
 tasks {
