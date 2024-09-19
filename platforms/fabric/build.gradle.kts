@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-
 /*
  *     This file is part of UnifiedMetrics.
  *
@@ -18,7 +16,8 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
  */
 
 plugins {
-    id("fabric-loom")
+    id("fabric-loom") version "1.4.1"
+    id("net.kyori.blossom")
 }
 
 val transitiveInclude: Configuration by configurations.creating {
