@@ -18,7 +18,7 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
  */
 
 plugins {
-    id("fabric-loom") version "1.7.2"
+    id("fabric-loom") version "1.7.3"
 }
 
 val transitiveInclude: Configuration by configurations.creating {
