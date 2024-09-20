@@ -60,15 +60,11 @@ publishing {
                     }
                 }
                 scm {
-                    connection.set("scm:git:git://github.com/Cubxity/UnifiedMetrics.git")
-                    developerConnection.set("scm:git:ssh://github.com/Cubxity/UnifiedMetrics.git")
-                    url.set("https://github.com/Cubxity/UnifiedMetrics/")
+                    connection.set("scm:git:git://github.com/Tech-6/UnifiedMetrics.git")
+                    developerConnection.set("scm:git:ssh://github.com/Tech-6/UnifiedMetrics.git")
+                    url.set("https://github.com/tech-6/UnifiedMetrics/")
                 }
             }
         }
     }
-}
-
-signing {
-    sign(publishing.publications["mavenJava"])
 }
